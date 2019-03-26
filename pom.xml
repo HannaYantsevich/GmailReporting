@@ -8,16 +8,6 @@
     <artifactId>GmailBDD</artifactId>
     <version>1.0-SNAPSHOT</version>
 
-    <repositories>
-        <repository>
-            <snapshots>
-                <enabled>false</enabled>
-            </snapshots>
-            <id>bintray-epam-reportportal</id>
-            <name>bintray</name>
-            <url>http://dl.bintray.com/epam/reportportal</url>
-        </repository>
-    </repositories>
 
     <properties>
         <forkCount>1</forkCount>
@@ -98,14 +88,6 @@
             </plugin>
         </plugins>
     </reporting>
-
-    <distributionManagement>
-        <snapshotRepository>
-            <id>nexus</id>
-            <name>LocalRepository</name>
-            <url>http://localhost:8081/repository/maven-snapshots/</url>
-        </snapshotRepository>
-    </distributionManagement>
 
     <dependencies>
         <dependency>
